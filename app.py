@@ -141,7 +141,7 @@ def save_conversation():
     global agent
     
     if not agent:
-        return jsonify({'error': 'Agent not initialized'}), 400
+        return jsonify({'error': 'Agent not initialized'}), 400c
     
     filename = f"conversation_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
     os.makedirs('conversations', exist_ok=True)
