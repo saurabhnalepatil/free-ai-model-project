@@ -1,0 +1,22 @@
+# Core dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Web interface
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# AI/ML libraries
+transformers>=4.35.0
+torch>=2.0.0
+
+# Hugging Face
+huggingface-hub>=0.19.0
+
+# Optional: for better terminal experience
+rich>=13.7.0
+prompt-toolkit>=3.0.43
+
+# Utilities
+pydantic>=2.5.0
+pyyaml>=6.0.1
